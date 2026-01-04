@@ -28,6 +28,7 @@ export const LeadForm: React.FC = () => {
     }
 
     setStatus('loading');
+    setMessage('');
     
     try {
       const response = await submitLead(formData);
